@@ -49,24 +49,6 @@ Each clinical trial's data is flattened and converted into a Pandas DataFrame. A
 ### 3. Optimized Region Classification
 Countries are classified into regions using a vectorized approach, avoiding inefficient nested loops. This ensures that the code runs efficiently even with large datasets.
 
-## Example
-
-Here is a snippet of how the code works:
-
-```python
-import json
-import pandas as pd
-
-# Load the JSON data from the file
-with open('data.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
-
-# List to store individual ClinicalTest DataFrames
-ClinicalTest_dfs = []
-
-# Flattening function and DataFrame creation...
-```
-
 ## Contributing
 
 Contributions are welcome! If you have any improvements, please feel free to fork the repository and create a pull request.
