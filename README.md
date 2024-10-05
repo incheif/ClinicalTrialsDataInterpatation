@@ -49,6 +49,9 @@ Each clinical trial's data is flattened and converted into a Pandas DataFrame. A
 ### 3. Optimized Region Classification
 Countries are classified into regions using a vectorized approach, avoiding inefficient nested loops. This ensures that the code runs efficiently even with large datasets.
 
+##Data Source
+[https://clinicaltrials.gov/](url)
+
 ## Contributing
 
 Contributions are welcome! If you have any improvements, please feel free to fork the repository and create a pull request.
