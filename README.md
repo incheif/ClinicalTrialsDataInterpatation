@@ -51,7 +51,7 @@ Countries are classified into regions using a vectorized approach, avoiding inef
 
 ## Data Source
 
-[https://clinicaltrials.gov/](url)
+[https://clinicaltrials.gov/](https://clinicaltrials.gov/)
 
 ## Contributing
 
